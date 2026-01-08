@@ -66,7 +66,7 @@ const Contact = () => {
                   </a>
 
                   <a
-                    href="mailto:sailegalservices@gmail.com"
+                    href="mailto:sailegalservices2004@gmail.com"
                     className="flex items-start gap-4 group"
                   >
                     <div className="w-12 h-12 rounded-xl bg-secondary/10 flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-secondary-foreground transition-colors">
@@ -77,7 +77,7 @@ const Contact = () => {
                         Email
                       </p>
                       <p className="text-foreground font-medium">
-                        sailegalservices@gmail.com
+                        sailegalservices2004@gmail.com
                       </p>
                     </div>
                   </a>

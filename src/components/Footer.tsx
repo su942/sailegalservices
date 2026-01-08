@@ -48,11 +48,11 @@ const Footer = () => {
                   +91 95940 21883
                 </a>
                 <a
-                  href="mailto:sailegalservices@gmail.com"
+                  href="mailto:sailegalservices2004@gmail.com"
                   className="flex items-center gap-3 text-primary-foreground/70 hover:text-accent transition-colors"
                 >
                   <Mail className="w-4 h-4" />
-                  sailegalservices@gmail.com
+                  sailegalservices2004@gmail.com
                 </a>
                 <div className="flex items-center gap-3 text-primary-foreground/70">
                   <MapPin className="w-4 h-4" />
