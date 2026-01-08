@@ -6,42 +6,36 @@ const services = [
     title: "Rent Agreement Drafting",
     description:
       "Professionally drafted rent agreements that protect both landlord and tenant interests.",
-    price: "Starting ₹999",
   },
   {
     icon: Home,
     title: "Leave & License Agreement",
     description:
       "Legally compliant leave and license agreements for residential properties.",
-    price: "Starting ₹1,499",
   },
   {
     icon: Building,
     title: "Commercial Agreements",
     description:
       "Comprehensive commercial rental agreements for shops, offices, and warehouses.",
-    price: "Starting ₹2,499",
   },
   {
     icon: Stamp,
     title: "Registration Assistance",
     description:
       "Complete support for document registration at Sub-Registrar office.",
-    price: "As per govt. rates",
   },
   {
     icon: Scale,
     title: "Notary Services",
     description:
       "Authentication and notarization of legal documents by certified notaries.",
-    price: "Starting ₹500",
   },
   {
     icon: Shield,
     title: "Police Verification",
     description:
       "Assistance with tenant verification and police verification documentation.",
-    price: "Starting ₹299",
   },
 ];
 
@@ -78,11 +72,8 @@ const Services = () => {
                 <h3 className="text-xl font-semibold text-foreground mb-3">
                   {service.title}
                 </h3>
-                <p className="text-muted-foreground mb-4 leading-relaxed">
+                <p className="text-muted-foreground leading-relaxed">
                   {service.description}
-                </p>
-                <p className="text-sm font-semibold text-accent">
-                  {service.price}
                 </p>
               </div>
             ))}
